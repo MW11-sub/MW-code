@@ -2,8 +2,6 @@
 
 This repository contains the computational infrastructure used to verify Woods' Conjecture for dimension 11. The framework utilizes rigorous interval arithmetic and a global Branch-and-Bound optimizer to exhaustively prune the parameter space of unit-determinant well-rounded lattices, isolating the trivial cubic lattice singularity.
 
-This work supports the manuscript: **"A Certified Computational Resolution of the Minkowski and Woods' Conjectures for Dimension 11"**.
-
 ## Prerequisites
 
 The verification script requires Python 3 and the `mpmath` library for exact, arbitrary-precision interval arithmetic.
